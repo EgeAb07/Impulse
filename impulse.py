@@ -28,14 +28,14 @@ parser.add_argument(
 parser.add_argument(
     "--method",
     type=str,
-    metavar="<SMS/EMAIL/NTP/UDP/SYN/ICMP/POD/SLOWLORIS/MEMCACHED/HTTP>",
+    metavar="SMS",
     help="Attack method",
 )
 parser.add_argument(
-    "--time", type=int, default=10, metavar="<time>", help="time in secounds"
+    "--time 35", type=int, default=10, metavar="<time>", help="time in secounds"
 )
 parser.add_argument(
-    "--threads", type=int, default=3, metavar="<threads>", help="threads count (1-200)"
+    "--threads 10", type=int, default=3, metavar="<threads>", help="threads count (1-200)"
 )
 
 # Get args
