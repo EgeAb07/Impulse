@@ -20,7 +20,8 @@ except ImportError as err:
 # Parse args
 parser = argparse.ArgumentParser(description="Denial-of-service ToolKit")
 parser.add_argument(
-    "--target 1",
+    "--target +90423588173" ,
+
     type=str,
     metavar="<PHONE>",
     help="Target ip:port, url or phone",
